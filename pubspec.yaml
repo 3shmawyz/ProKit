@@ -1,0 +1,161 @@
+name: prokit_flutter
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  url_launcher:
+  nb_utils:
+  google_fonts:
+  animations:
+  intl:
+  http: 
+  firebase_core: 
+  firebase_analytics:
+  firebase_crashlytics:
+  google_sign_in:
+  html: 
+  share: 
+  mobx: 
+  flutter_mobx: 
+
+  flutter_statusbarcolor: 
+  simple_animations: 1.3.8
+  snaplist:
+  flutter_svg: 
+  flutter_slidable: 
+  flutter_staggered_grid_view: 
+  flutter_staggered_animations: 
+
+  geolocator: 
+  geocoder: 
+  google_maps_flutter: 
+  clustering_google_maps: 
+  razorpay_flutter: 
+  signature: 
+  liquid_swipe: 
+  lipsum: 
+  flutter_colorpicker: 
+  clippy_flutter: 
+  flutter_tags: 
+  image_picker_gallery_camera: 
+  video_player: 
+  charts_flutter: 
+  like_button:
+  flutter_reaction_button: 
+  lottie: 
+  showcaseview: 
+  #date_utils:
+  cached_network_image:
+
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen:
+  build_runner: ^1.9.0
+  #flutter packages pub run build_runner build
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/smartDeck/images/
+    - images/widgets/materialWidgets/mwDialogAlertPanelWidgets/
+    - images/smartDeck/images/sdchats.png
+    - images/smartDeck/images/sdupdate.png
+    - images/Reaction/images/
+    - images/Reaction/images/SocialMedia/
+    - images/Tinder/images/
+    - images/LikeButton/image/grey.jpg
+    - assets/
+    - assets/integrations/lang/
+    - assets/shophop_data/
+    - images/app/icons/
+    - images/app/
+    - images/app/ic_rate_app.png
+    - images/theme1/
+    - images/theme2/
+    - images/theme3/
+    - images/theme4/
+    - images/theme5/
+    - images/theme6/
+    - images/theme7/
+    - images/theme8/
+    - images/theme9/
+    - images/theme10/
+    - images/dashboard/
+    - images/qibus/
+    - images/theme11/
+    - images/learner/
+    - images/social/
+    - images/quiz/
+    - images/food/
+    - images/grocery/
+    - images/integrations/icons/
+    - images/integrations/img/
+    - images/shophop/
+    - images/shophop/radar.gif
+    - images/shophop/img/products/
+    - images/shophop/img/products/decor/
+    - images/shophop/img/products/dress/
+    - images/shophop/img/products/shoes/
+    - images/shophop/img/products/banners/b1.jpg
+    - images/shophop/img/products/banners/b2.jpg
+    - images/shophop/img/products/banners/b3.jpg
+    - images/shophop/img/products/banners/b4.jpg
+    - images/shophop/img/products/banners/b5.jpg
+    - images/shophop/img/products/banners/b6.jpg
+    - images/theme12/
+    - images/theme12/mastercard.png
+    - images/orapay/
+    - images/muvi/icons/
+    - images/muvi/images/
+    - lang/en.json
+    - lang/hi.json
+    - images/widgets/materialWidgets/mwAppStructureWidgets/BottomNavigation/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/TabBar/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/Checkbox/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/switch/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/cards/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/gridview/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/Checkbox/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/switch/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/MWUserAccountDrawerHeaderWidget/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/MWListTile/
+    - images/widgets/cupertinoWidgets/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/listView/
+    - images/widgets/animationAndMotionWidgets/
+
+    - images/widgets/paintingAndEffectWidgets/opacity/
+
+  fonts:
+    - family: Andina
+      fonts:
+        - asset: fonts/andina.ttf
+
+    - family: Regular
+      fonts:
+        - asset: fonts/googlesansregular.ttf
+
+    - family: Medium
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Semibold
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Bold
+      fonts:
+        - asset: fonts/googlesansebold.ttf
+
